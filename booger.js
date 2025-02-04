@@ -5,7 +5,7 @@ are multiples of both three and five print “FizzBuzz”.
 
 var fin = [ ];
 
-for (var startNum = 1; startNum <= 1000; startNum++){
+for (var startNum = 1; startNum <= 226; startNum++){
         if (startNum % 3 === 0 && startNum % 5 === 0) {
             fin+=("FizzBuzz" + " ");
         } else if (startNum % 3 === 0){
